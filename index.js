@@ -11,7 +11,7 @@ const client = new discord.Client({
 
 client.on("ready", () => {
 	const status = [
-		'BOT ONLINE ',
+		'BOT DESENVOLVIDO EM JAVASCRIPTS ',
 	];
 	i = 0;
 	setInterval(() => client.user.setActivity(`${status[i++ % status.length]}`, {
