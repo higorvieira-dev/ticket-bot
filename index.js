@@ -47,7 +47,7 @@ client.on("messageCreate", async (msg) => {
 		.setTitle('Criar ticket de atendimento')
 		.addField('☄️ Detalhes', 'Ao criar um ticket você deve especificar o motivo do chamado, seja para dúvidas, compras ou suporte.', true)
 		.setImage('https://media.discordapp.net/attachments/767174280281980968/992075121185538139/1.png')
-		.setAuthor({ name: 'DevLog', iconURL: 'https://media.discordapp.net/attachments/767174280281980968/992075121185538139/1.png', url: 'https://discord.com/invite/dX5RtYepjp' })
+		.setAuthor({ name: 'DevLog', iconURL: 'https://media.discordapp.net/attachments/767174280281980968/992075121185538139/1.png', url: 'https://devlogsoftware.netlify.app/' })
 		.setURL('https://discord.com/invite/dX5RtYepjp')
 		.setDescription('Para dúvidas, suporte, contato profissional, orçamentos e compras.')
 		.setFooter({ text: 'Devlog Software - All Copyright reserved for © DevLog Software', iconURL: 'https://media.discordapp.net/attachments/767174280281980968/992075121185538139/1.png' });
